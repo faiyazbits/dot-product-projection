@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<style>
+    body{
+        margin:10px;
+    }
+    #canvas{
+    background-color: rgba(158, 167, 184, 0.2);
+    }
+
+    #point1X{
+        position:absolute;
+        top:600px;
+    }
+    #point1Y{
+        position:absolute;
+        top:600px;
+        margin-left:20%
+    }
+    #point2X{
+        position:absolute;
+        top:600px;
+        margin-left:40%
+    }
+    #point2Y{
+        position:absolute;
+        top:600px;
+        margin-left: 60%;
+    }
+    #p1x{
+        position:absolute;
+        top:620px;
+    }
+    #p1y{
+        position:absolute;
+        top:620px;
+        margin-left:20% ;
+    }
+    #p2x{
+        position:absolute;
+        top:620px;
+        margin-left:40% ;
+    }
+    #p2y{
+        position:absolute;
+        top:620px;
+        margin-left:60% ;
+    }
+    #applyButton{
+        position:absolute;
+        top: 540px;
+        margin-left:0.5% ;
+    }
+</style>
+<input id="point1X" >
+<input id="point1Y">
+<input id="point2X">
+<input id="point2Y">
+
+<div id="p1x">p1 x-cor</div>
+<div id="p1y">p1 y-cor</div>
+<div id="p2x">p2 x-cor</div>
+<div id="p2y">p2 y-cor</div>
+<button id="applyButton"type="button" onclick="apply()">apply</button>
+
+<canvas id="canvas" width="1300" height="1000"></canvas>
+<!--<script rel="script" type="text/javascript" src="getPoints.js"></script>-->
+<script rel="script" type="text/javascript" src="dotProductFill.js"></script>
+<script rel="script" type="text/javascript" src="canvasRender.js"></script>
+
+</body>
+</html>
